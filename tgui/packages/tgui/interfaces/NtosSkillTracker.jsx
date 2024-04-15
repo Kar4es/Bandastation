@@ -15,7 +15,7 @@ export const NtosSkillTracker = (props) => {
   return (
     <NtosWindow width={500} height={600}>
       <NtosWindow.Content scrollable>
-        <Section title="Skill Tracker">
+        <Section title="Отслеживание навыков">
           {skills.map((skill, idx) => (
             <Section key={idx} level={2} title={skill.name}>
               <BlockQuote>{skill.desc}</BlockQuote>
@@ -25,8 +25,8 @@ export const NtosSkillTracker = (props) => {
                     <Table.Cell textAlign="center" collapsing>
                       Level
                     </Table.Cell>
-                    <Table.Cell textAlign="center">Level Progress</Table.Cell>
-                    <Table.Cell textAlign="center">Overall Progress</Table.Cell>
+                    <Table.Cell textAlign="center">Прогресс уровня</Table.Cell>
+                    <Table.Cell textAlign="center">Общий прогресс</Table.Cell>
                   </Table.Row>
                   <Table.Row className="candystripe">
                     <Table.Cell textAlign="center" collapsing>
