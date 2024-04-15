@@ -72,8 +72,9 @@ const MainPage = (props) => {
   return (
     <Section>
       <NoticeBox>
-        WARNING: Disabling wireless transmitters when using a wireless device
-        may prevent you from reenabling them!
+        ПРЕДУПРЕЖДЕНИЕ: Отключение беспроводных передатчиков при использовании
+        беспроводного устройства может привести к тому, что вы не сможете
+        включить их снова!
       </NoticeBox>
       <Section title="Wireless Connectivity">
         {ntnetrelays.map((relay) => (
